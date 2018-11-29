@@ -10,7 +10,7 @@
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
+            "enumb": 2,
             "eventtype": 3,
             "m_owner": "fb5c6099-3484-45c9-b3d3-f56e373d5e09"
         },
@@ -22,6 +22,46 @@
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 64,
             "eventtype": 8,
+            "m_owner": "fb5c6099-3484-45c9-b3d3-f56e373d5e09"
+        },
+        {
+            "id": "0ce7bd17-1cc1-4935-9283-950fac71a6f2",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 1,
+            "eventtype": 3,
+            "m_owner": "fb5c6099-3484-45c9-b3d3-f56e373d5e09"
+        },
+        {
+            "id": "7499370c-2716-4cdc-8d97-20cdc07b0e81",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "fb5c6099-3484-45c9-b3d3-f56e373d5e09"
+        },
+        {
+            "id": "f7e93fcf-8b68-4eb1-ab9d-e73bfab45c5b",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "fb5c6099-3484-45c9-b3d3-f56e373d5e09"
+        },
+        {
+            "id": "a17d76c1-6410-437e-84d9-f9a19eb4a4b6",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
             "m_owner": "fb5c6099-3484-45c9-b3d3-f56e373d5e09"
         }
     ],
@@ -125,6 +165,48 @@
             "value": "room_height - 100",
             "varName": "map_cleared_y2",
             "varType": 0
+        },
+        {
+            "id": "f5463849-745e-4d29-aefb-abe598a7741d",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "map_cleared_x1 + map_cleared_x2",
+            "varName": "sizeX",
+            "varType": 0
+        },
+        {
+            "id": "1d6a248f-17b6-491c-bbc9-d7b4541f10c6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "map_cleared_y1 + map_cleared_y2",
+            "varName": "sizeY",
+            "varType": 0
+        },
+        {
+            "id": "fe0a1574-45bc-43d0-af82-8cc8dda337fb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "draw",
+            "varType": 3
         }
     ],
     "solid": false,
