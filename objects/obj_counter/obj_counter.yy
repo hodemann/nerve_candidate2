@@ -83,6 +83,48 @@
             "value": "0",
             "varName": "enemy_count",
             "varType": 0
+        },
+        {
+            "id": "feaff0f7-a489-49e2-8223-b49b51177a3f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "stars",
+            "varType": 0
+        },
+        {
+            "id": "c8a6c49b-252f-401a-b5f0-24eb39b2e1cb",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "enemy_count",
+            "varName": "enemy_count_start",
+            "varType": 0
+        },
+        {
+            "id": "a82216b0-d50d-4567-86a7-81553d073d5b",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "enemy_count_start-enemy_count",
+            "varName": "enemy_shot",
+            "varType": 0
         }
     ],
     "solid": false,

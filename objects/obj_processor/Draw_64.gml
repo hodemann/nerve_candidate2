@@ -14,6 +14,6 @@ if draw == true and  obj_counter.enemy_count == 0 {
 	//Stjerner
 	
 	for (i = 0; i = 3 + 1; i += 1) {
-		draw_sprite(sprite,0, sizeX/3 - map_cleared_x1*i, sizeY/2)
+		draw_sprite(spr_star,0, sizeX/3 - map_cleared_x1*i, sizeY/2)
 	}	
 }
